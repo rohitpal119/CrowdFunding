@@ -13,8 +13,9 @@ import Navbar from "./components/Navbar";
 import FundraiserDetail from "./pages/FundraiserDetail";
 
 const httpLink = createHttpLink({
-  uri: "/graphql",
+  uri: "https://crowd-funding-t8zv-git-main-rohits-projects-b705caf4.vercel.app", // Update with your actual backend URL
 });
+
 
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem("id_token");
