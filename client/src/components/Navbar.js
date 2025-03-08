@@ -23,7 +23,7 @@ const AppNavBar = () => {
               alt="The Goodness Gift Logo"
               className="me-2"
             />
-            <span className="site-title fs-4 fw-bold text-primary">
+            <span className="site-title fs-4 fw-bold" style={{ color: "#FFD1DC" }}>
               The Goodness Gift
             </span>
           </Navbar.Brand>
